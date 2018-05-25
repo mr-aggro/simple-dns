@@ -57,9 +57,9 @@ def get_dns_cahce():
     return links
 
 if __name__=='__main__':
-    # print("Get toxic net")
-    # make_ban()
-    # print("Got in ban_nets.txt")
+    print("Get toxic net")
+    make_ban()
+    print("Got in ban_nets.txt")
     f = open('ban_nets.txt', 'r')
     rkn = []
     for net in f:
